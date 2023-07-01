@@ -1,0 +1,102 @@
+	body{
+	background-color: #f2f2f2;
+	color: black;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 100;
+	margin: 0;
+}
+
+h1, h2, h3{
+	font-size: 24px;
+}
+
+.box-1{
+	font-size: 16px;
+	color: #666666;
+}
+
+a{
+	text-decoration: none;
+	color: darkviolet;
+}
+
+a:hover{
+	color: blue;
+	text-decoration: underline;
+}
+
+.box-1{
+	margin-bottom: 20px;
+}
+
+.container{
+	border: 2px grey solid;
+	box-shadow: rgba(0, 0, 0, 0.3);
+}
+
+.unorganized-list ul{
+	list-style: square;
+	padding: 1;
+}
+
+.organized-list ol{
+	padding: 1;
+}
+
+.table h4{
+	text-align: left;
+}
+
+td, th{
+	border: 1px solid;
+	padding: 10px;
+}
+
+.form-1{
+	padding: 20px;
+	max-width: 800px;
+}
+
+.form-1 .form-group{
+	padding: 15px;
+}
+
+.form-1 label{
+	display: block;
+}
+
+.form-1 input[type="text"], form-1 textarea{
+	padding: 8px;
+	width: 100%;
+	border: 1px black solid;
+	background-color: #ffffff;
+	color: #333333;
+}
+
+.form-1 input[type="email"]{
+	padding: 8px;
+	width: 80%;
+	border: 1px black solid;
+}
+
+.form-1 input[type="submit"]{
+	background-color: #333333;
+	color: #f2f2f2;
+	padding: 10px 15px;
+	border: none;
+}
+
+.form-1 input[type="submit"]:hover{
+	background-color: #cccccc;
+	color: black;
+}
+
+.block{
+	float: left;
+	width: 33.3%;
+	border: 1px solid aquamarine;
+	padding: 10px;
+	box-sizing: border-box;
+	background-color: #666666;
+}
